@@ -3,7 +3,7 @@ const app = express();
 const port = 5000;
 
 app.get('/', (req, res) => {
-  res.send('Hello, World! This is my containerized Express app.');
+  res.send('Hello, World! Stage');
 });
 
 app.listen(port, () => {
